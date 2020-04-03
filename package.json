@@ -1,0 +1,29 @@
+{
+  "name": "strum-doc-editor",
+  "version": "1.0.0",
+  "description": "PDF Reader and editor",
+  "main": "index.ts",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "web": "webpack-dev-server --mode development --hot --progress --color --port 3012 --open",
+    "webnohot": "webpack-dev-server --mode development --progress --color --port 3014 --open",
+    "web-build": "webpack -p --progress --colors",
+    "docs": "typedoc --options typedoc.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Isaac Chaneel Lee",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-bundle-analyzer": "^3.0.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "strum-types": "https://github.com/gssisaac/strum-types.git"
+  }
+}
