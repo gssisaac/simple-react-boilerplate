@@ -24,6 +24,5 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
-    "strum-types": "https://github.com/gssisaac/strum-types.git"
   }
 }
