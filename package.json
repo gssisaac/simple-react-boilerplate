@@ -1,7 +1,7 @@
 {
-  "name": "strum-doc-editor",
+  "name": "simple-react-boilerplate",
   "version": "1.0.0",
-  "description": "PDF Reader and editor",
+  "description": "Simple React Boilerplate",
   "main": "index.ts",
   "directories": {
     "test": "tests"
@@ -15,7 +15,7 @@
   },
   "keywords": [],
   "author": "Isaac Chaneel Lee",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
