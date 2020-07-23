@@ -54,3 +54,4 @@ npm-debug.log.*
 build
 web-build
 pdfs
+yarn.lock

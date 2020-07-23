@@ -11,7 +11,7 @@ render(
     <Routes/>
   </AppContainer>
   ,
-  document.getElementById('root')
+  document.getElementById('root'),
 )
 
 if ((module as any).hot) {
@@ -22,7 +22,7 @@ if ((module as any).hot) {
       <AppContainer>
         <NextRoot/>
       </AppContainer>,
-      document.getElementById('root')
+      document.getElementById('root'),
     )
   })
 }
