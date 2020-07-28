@@ -1,5 +1,10 @@
 
-# Doc editor
+# Simple react boilerplate
 
-PDF Reader and editor
+## features
+
+- typescript
+- webpack devserver
+- eslint
+- storybook
 
